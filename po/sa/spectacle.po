@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-07-03 00:48+0000\n"
 "PO-Revision-Date: 2024-12-25 19:45+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -226,14 +226,14 @@ msgstr "विद्यमानं स्क्रीनशॉट् सञ्�
 msgid "Accept region selection on click-and-release"
 msgstr "क्लिक्-एण्ड्-रिलीज् इत्यत्र स्वीकुर्वन्तु"
 
-#: src/ExportManager.cpp:460
+#: src/ExportManager.cpp:459
 #, fuzzy, kde-format
 #| msgid "QImageWriter cannot write image: %1"
 msgctxt "%1 is an error message"
 msgid "QImageWriter cannot write image: %1"
 msgstr "QImageWriter चित्रं लिखितुं न शक्नोति: %1"
 
-#: src/ExportManager.cpp:476
+#: src/ExportManager.cpp:475
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -243,12 +243,12 @@ msgstr ""
 "स्क्रीनशॉट् रक्षितुम् न शक्यते यतः निर्देशिकायाः निर्माणं विफलम् अभवत्:<nl/><filename>%1</"
 "filename>"
 
-#: src/ExportManager.cpp:486
+#: src/ExportManager.cpp:485
 #, kde-format
 msgid "Cannot save screenshot. Error while writing file."
 msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। सञ्चिकां लिखन् त्रुटिः।"
 
-#: src/ExportManager.cpp:506
+#: src/ExportManager.cpp:505
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -258,27 +258,27 @@ msgstr ""
 "स्क्रीनशॉट् रक्षितुं न शक्यते यतः दूरस्थनिर्देशिकायाः निर्माणं विफलम् अभवत्:<nl/><filename>"
 "%1</filename>"
 
-#: src/ExportManager.cpp:517 src/ExportManager.cpp:566
+#: src/ExportManager.cpp:516 src/ExportManager.cpp:565
 #, kde-format
 msgid "Cannot save screenshot. Error while writing temporary local file."
 msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। अस्थायी स्थानीयसञ्चिकां लिखन् त्रुटिः।"
 
-#: src/ExportManager.cpp:525
+#: src/ExportManager.cpp:524
 #, kde-format
 msgid "Unable to save image. Could not upload file to remote location."
 msgstr "चित्रं रक्षितुं असमर्थः। दूरस्थस्थाने सञ्चिकां अपलोड् कर्तुं न शक्तवान् ।"
 
-#: src/ExportManager.cpp:573
+#: src/ExportManager.cpp:572
 #, kde-format
 msgid "Cannot save screenshot. The save filename is invalid."
 msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। रक्षणसञ्चिकानाम अमान्यम् अस्ति ।"
 
-#: src/ExportManager.cpp:617
+#: src/ExportManager.cpp:616
 #, kde-format
 msgid "Cannot save an empty screenshot image."
 msgstr "रिक्तं स्क्रीनशॉट् चित्रं रक्षितुं न शक्यते ।"
 
-#: src/ExportManager.cpp:780
+#: src/ExportManager.cpp:779
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -286,7 +286,7 @@ msgid ""
 msgstr ""
 "विडियो निर्यातयितुं असफलम्: अस्थायी सञ्चिका URL विद्यमानस्थानीयसञ्चिका भवितुमर्हति"
 
-#: src/ExportManager.cpp:787
+#: src/ExportManager.cpp:786
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -294,7 +294,7 @@ msgid ""
 msgstr ""
 "विडियो निर्यातयितुं असफलम्: आउटपुट् सञ्चिका URL सञ्चिकानाम्ना सह वैधः URL भवितुमर्हति"
 
-#: src/ExportManager.cpp:873
+#: src/ExportManager.cpp:872
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Unable to save recording. Could not move file to location: %1"
@@ -302,180 +302,180 @@ msgctxt "@info, %1 is a file path"
 msgid "Unable to save recording. Could not move file to location: %1"
 msgstr "रिकार्डिङ्ग् रक्षितुं असमर्थः। सञ्चिकां स्थानं प्रति स्थानान्तरयितुं न शक्तम्: %1"
 
-#: src/ExportManager.cpp:901
+#: src/ExportManager.cpp:900
 #, kde-format
 msgid "Printing failed. The printer failed to initialize."
 msgstr "मुद्रणं विफलम् अभवत् । मुद्रकः आरम्भं कर्तुं असफलः अभवत् ।"
 
-#: src/ExportManager.cpp:918
+#: src/ExportManager.cpp:917
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (1–31)"
 msgstr ""
 
-#: src/ExportManager.cpp:919
+#: src/ExportManager.cpp:918
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (01–31)"
 msgstr ""
 
-#: src/ExportManager.cpp:920
+#: src/ExportManager.cpp:919
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (short name)"
 msgstr ""
 
-#: src/ExportManager.cpp:921
+#: src/ExportManager.cpp:920
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (long name)"
 msgstr ""
 
-#: src/ExportManager.cpp:922
+#: src/ExportManager.cpp:921
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (1–12)"
 msgstr ""
 
-#: src/ExportManager.cpp:923
+#: src/ExportManager.cpp:922
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (01–12)"
 msgstr ""
 
-#: src/ExportManager.cpp:924
+#: src/ExportManager.cpp:923
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (short name)"
 msgstr ""
 
-#: src/ExportManager.cpp:925
+#: src/ExportManager.cpp:924
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (long name)"
 msgstr ""
 
-#: src/ExportManager.cpp:926
+#: src/ExportManager.cpp:925
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (2 digit)"
 msgstr ""
 
-#: src/ExportManager.cpp:927
+#: src/ExportManager.cpp:926
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (4 digit)"
 msgstr ""
 
-#: src/ExportManager.cpp:928
+#: src/ExportManager.cpp:927
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (0–23)"
 msgstr ""
 
-#: src/ExportManager.cpp:929
+#: src/ExportManager.cpp:928
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (00–23)"
 msgstr ""
 
-#: src/ExportManager.cpp:930
+#: src/ExportManager.cpp:929
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (1–12)"
 msgstr ""
 
-#: src/ExportManager.cpp:931
+#: src/ExportManager.cpp:930
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (01–12)"
 msgstr ""
 
-#: src/ExportManager.cpp:932
+#: src/ExportManager.cpp:931
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (0–59)"
 msgstr ""
 
-#: src/ExportManager.cpp:933
+#: src/ExportManager.cpp:932
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (00–59)"
 msgstr ""
 
-#: src/ExportManager.cpp:934
+#: src/ExportManager.cpp:933
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (0–59)"
 msgstr ""
 
-#: src/ExportManager.cpp:935
+#: src/ExportManager.cpp:934
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (00–59)"
 msgstr ""
 
-#: src/ExportManager.cpp:936
+#: src/ExportManager.cpp:935
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (0–999)"
 msgstr ""
 
-#: src/ExportManager.cpp:938
+#: src/ExportManager.cpp:937
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (000–999)"
 msgstr ""
 
-#: src/ExportManager.cpp:939
+#: src/ExportManager.cpp:938
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM"
 msgstr ""
 
-#: src/ExportManager.cpp:941
+#: src/ExportManager.cpp:940
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "am/pm"
 msgstr ""
 
-#: src/ExportManager.cpp:943
+#: src/ExportManager.cpp:942
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM or am/pm (localized)"
 msgstr ""
 
-#: src/ExportManager.cpp:945
+#: src/ExportManager.cpp:944
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (short name)"
 msgstr ""
 
-#: src/ExportManager.cpp:946
+#: src/ExportManager.cpp:945
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±0000)"
 msgstr ""
 
-#: src/ExportManager.cpp:947
+#: src/ExportManager.cpp:946
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±00:00)"
 msgstr ""
 
-#: src/ExportManager.cpp:948
+#: src/ExportManager.cpp:947
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (long name)"
 msgstr ""
 
-#: src/ExportManager.cpp:949
+#: src/ExportManager.cpp:948
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Seconds since the Unix epoch"
 msgstr ""
 
-#: src/ExportManager.cpp:950
+#: src/ExportManager.cpp:949
 #, fuzzy, kde-format
 #| msgctxt "@item recording mode"
 #| msgid "Window"
@@ -483,7 +483,7 @@ msgctxt "filename placeholder description"
 msgid "Window Title"
 msgstr "कोष्ठ"
 
-#: src/ExportManager.cpp:951
+#: src/ExportManager.cpp:950
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Sequential numbering, padded by inserting additional '#' characters"
@@ -860,7 +860,7 @@ msgctxt "@title:group"
 msgid "Make a Recording:"
 msgstr "रिकार्डिङ्गं कुर्वन्तु :"
 
-#: src/Gui/DialogPage.qml:163
+#: src/Gui/DialogPage.qml:162
 #, kde-format
 msgctxt "@title:tab"
 msgid "Screenshot"
@@ -872,6 +872,12 @@ msgctxt "@title:tab"
 msgid "Recording"
 msgstr "अभिलेखनम्"
 
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
 #: src/Gui/EditAction.qml:11
 #, fuzzy, kde-format
 #| msgctxt "@action:button edit screenshot"
@@ -880,54 +886,54 @@ msgctxt "@action edit screenshot"
 msgid "Edit…"
 msgstr "सम्पादन…"
 
-#: src/Gui/ExportMenu.cpp:45
+#: src/Gui/ExportMenu.cpp:44
 #, fuzzy, kde-format
 #| msgid "Export"
 msgctxt "@title:menu"
 msgid "Export"
 msgstr "निर्यात"
 
-#: src/Gui/ExportMenu.cpp:48
+#: src/Gui/ExportMenu.cpp:47
 #, kde-format
 msgid "Open Default Screenshots Folder"
 msgstr "पूर्वनिर्धारित स्क्रीनशॉट्स् समुच्चय उद्घाटयन्तु"
 
-#: src/Gui/ExportMenu.cpp:134
+#: src/Gui/ExportMenu.cpp:133
 #, fuzzy, kde-format
 #| msgid "Other Application..."
 msgctxt "@action:button open screenshot in other application"
 msgid "Other Application…"
 msgstr "अन्य अनुप्रयोग..."
 
-#: src/Gui/ExportMenu.cpp:166
+#: src/Gui/ExportMenu.cpp:165
 #, kde-format
 msgid "Share"
 msgstr "संविभागः"
 
-#: src/Gui/ExportMenu.cpp:259
+#: src/Gui/ExportMenu.cpp:258
 #, kde-format
 msgctxt "@action:menu"
 msgid "Extract Text by Language"
 msgstr ""
 
-#: src/Gui/ExportMenu.cpp:295
+#: src/Gui/ExportMenu.cpp:294
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "KWin Screencasting is not available."
 msgid "OCR engine is not available."
 msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
 
-#: src/Gui/ExportMenu.cpp:303
+#: src/Gui/ExportMenu.cpp:302
 #, kde-format
 msgid "OCR is not available. Please install Tesseract OCR."
 msgstr ""
 
-#: src/Gui/ExportMenu.cpp:304
+#: src/Gui/ExportMenu.cpp:303
 #, kde-format
 msgid "OCR engine is initializing…"
 msgstr ""
 
-#: src/Gui/ExportMenu.cpp:314
+#: src/Gui/ExportMenu.cpp:313
 #, kde-format
 msgid "No OCR language data available."
 msgstr ""
@@ -1141,12 +1147,6 @@ msgstr "अभिलेखनम्"
 msgctxt "@action select new recording mode"
 msgid "New Recording"
 msgstr "अभिलेखनम्"
-
-#: src/Gui/RecordingModeMenuButton.qml:18
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "This feature is not supported on the current platform"
-msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:17
 #, kde-format

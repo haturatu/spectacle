@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-07-03 00:48+0000\n"
 "PO-Revision-Date: 2026-02-01 18:51+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -232,13 +232,13 @@ msgstr "ஏற்கனவேயுள்ள திரைப்பிடிப�
 msgid "Accept region selection on click-and-release"
 msgstr "க்ளிக் செய்து விடும்போது ஏற்றுக்கொள்"
 
-#: src/ExportManager.cpp:460
+#: src/ExportManager.cpp:459
 #, kde-format
 msgctxt "%1 is an error message"
 msgid "QImageWriter cannot write image: %1"
 msgstr "QImageWriter-ஆல் படத்தை கோப்புக்கு எழுத முடியவில்லை: %1"
 
-#: src/ExportManager.cpp:476
+#: src/ExportManager.cpp:475
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -248,12 +248,12 @@ msgstr ""
 "அடைவை உருவாக்குதல் தோல்வியடைந்ததால் திரைப்பிடிப்பை சேமிக்க முடியவில்லை:<nl/><filename>"
 "%1</filename>"
 
-#: src/ExportManager.cpp:486
+#: src/ExportManager.cpp:485
 #, kde-format
 msgid "Cannot save screenshot. Error while writing file."
 msgstr "திரைப்பிடிப்பை சேமிக்க முடியவில்லை. கோப்புக்கு எழுதுவதில் சிக்கல்."
 
-#: src/ExportManager.cpp:506
+#: src/ExportManager.cpp:505
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -263,29 +263,29 @@ msgstr ""
 "தொலை அடைவை உருவாக்குதல் தோல்வியடைந்ததால் திரைப்பிடிப்பை சேமிக்க முடியவில்லை:<nl/"
 "><filename>%1</filename>"
 
-#: src/ExportManager.cpp:517 src/ExportManager.cpp:566
+#: src/ExportManager.cpp:516 src/ExportManager.cpp:565
 #, kde-format
 msgid "Cannot save screenshot. Error while writing temporary local file."
 msgstr ""
 "திரைப்பிடிப்பை சேமிக்க முடியவில்லை. தற்காலிக உள்ளமை கோப்புக்கு எழுதுவதில் சிக்கல்."
 
-#: src/ExportManager.cpp:525
+#: src/ExportManager.cpp:524
 #, kde-format
 msgid "Unable to save image. Could not upload file to remote location."
 msgstr "படத்தை சேமிக்க முடியவில்லை. தொலை முகவரிக்கு கோப்பை பதிவேற்றுவதில் சிக்கல்."
 
-#: src/ExportManager.cpp:573
+#: src/ExportManager.cpp:572
 #, kde-format
 msgid "Cannot save screenshot. The save filename is invalid."
 msgstr ""
 "திரைப்பிடிப்பை சேமிக்க முடியாது. சேமிக்க வேண்டிய கோப்புப்பெயர் செல்லுபடியாகாதது."
 
-#: src/ExportManager.cpp:617
+#: src/ExportManager.cpp:616
 #, kde-format
 msgid "Cannot save an empty screenshot image."
 msgstr "காலியான திரைப்பிடிப்பு படத்தை சேமிக்க முடியாது."
 
-#: src/ExportManager.cpp:780
+#: src/ExportManager.cpp:779
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -294,7 +294,7 @@ msgstr ""
 "நிகழ்படத்தை ஏற்றுமதி செய்ய முடியவில்லை: தற்காலிக கோப்பு ஏற்கனவேயுள்ள உள்ளமை கோப்பாக "
 "இருக்க வேண்டும்"
 
-#: src/ExportManager.cpp:787
+#: src/ExportManager.cpp:786
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -303,192 +303,192 @@ msgstr ""
 "நிகழ்படத்தை ஏற்றுமதி செய்ய முடியவில்லை: சேருமிட கோப்பு, முறையான கோப்புப்பெயருடம் "
 "கூடிய முகவரியாக இருக்க வேண்டும்"
 
-#: src/ExportManager.cpp:873
+#: src/ExportManager.cpp:872
 #, kde-format
 msgctxt "@info, %1 is a file path"
 msgid "Unable to save recording. Could not move file to location: %1"
 msgstr "நிகழ்படத்தை சேமிக்க முடியவில்லை. இவ்விடத்திற்கு கோப்பை நகர்த்த முடியவில்லை: %1"
 
-#: src/ExportManager.cpp:901
+#: src/ExportManager.cpp:900
 #, kde-format
 msgid "Printing failed. The printer failed to initialize."
 msgstr "அச்சிடுதல் தோல்வியடைந்தது. அச்சுப்பொறியை துவக்க முடியவில்லை."
 
-#: src/ExportManager.cpp:918
+#: src/ExportManager.cpp:917
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (1–31)"
 msgstr "நாள் (1–31)"
 
-#: src/ExportManager.cpp:919
+#: src/ExportManager.cpp:918
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (01–31)"
 msgstr "நாள் (01–31)"
 
-#: src/ExportManager.cpp:920
+#: src/ExportManager.cpp:919
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (short name)"
 msgstr "நாள் (குறுகிய பெயர்)"
 
-#: src/ExportManager.cpp:921
+#: src/ExportManager.cpp:920
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (long name)"
 msgstr "நாள் (நெடும் பெயர்)"
 
-#: src/ExportManager.cpp:922
+#: src/ExportManager.cpp:921
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (1–12)"
 msgstr "மாதம் (1–12)"
 
-#: src/ExportManager.cpp:923
+#: src/ExportManager.cpp:922
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (01–12)"
 msgstr "மாதம் (01–12)"
 
-#: src/ExportManager.cpp:924
+#: src/ExportManager.cpp:923
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (short name)"
 msgstr "மாதம் (குறுகிய பெயர்)"
 
-#: src/ExportManager.cpp:925
+#: src/ExportManager.cpp:924
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (long name)"
 msgstr "மாதம் (நெடும் பெயர்)"
 
-#: src/ExportManager.cpp:926
+#: src/ExportManager.cpp:925
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (2 digit)"
 msgstr "ஆண்டு (2 எண்கள்)"
 
-#: src/ExportManager.cpp:927
+#: src/ExportManager.cpp:926
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (4 digit)"
 msgstr "ஆண்டு (4 எண்கள்)"
 
-#: src/ExportManager.cpp:928
+#: src/ExportManager.cpp:927
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (0–23)"
 msgstr "மணி (0–23)"
 
-#: src/ExportManager.cpp:929
+#: src/ExportManager.cpp:928
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (00–23)"
 msgstr "மணி (00–23)"
 
-#: src/ExportManager.cpp:930
+#: src/ExportManager.cpp:929
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (1–12)"
 msgstr "மணி (1–12)"
 
-#: src/ExportManager.cpp:931
+#: src/ExportManager.cpp:930
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (01–12)"
 msgstr "மணி (01–12)"
 
-#: src/ExportManager.cpp:932
+#: src/ExportManager.cpp:931
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (0–59)"
 msgstr "நிமிடம் (0–59)"
 
-#: src/ExportManager.cpp:933
+#: src/ExportManager.cpp:932
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (00–59)"
 msgstr "நிமிடம் (00–59)"
 
-#: src/ExportManager.cpp:934
+#: src/ExportManager.cpp:933
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (0–59)"
 msgstr "நொடி (0–59)"
 
-#: src/ExportManager.cpp:935
+#: src/ExportManager.cpp:934
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (00–59)"
 msgstr "நொடி (00–59)"
 
-#: src/ExportManager.cpp:936
+#: src/ExportManager.cpp:935
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (0–999)"
 msgstr "மில்லிநொடி (0-999)"
 
-#: src/ExportManager.cpp:938
+#: src/ExportManager.cpp:937
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (000–999)"
 msgstr "மில்லிநொடி (000–999)"
 
-#: src/ExportManager.cpp:939
+#: src/ExportManager.cpp:938
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/ExportManager.cpp:941
+#: src/ExportManager.cpp:940
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "am/pm"
 msgstr "am/pm"
 
-#: src/ExportManager.cpp:943
+#: src/ExportManager.cpp:942
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM or am/pm (localized)"
 msgstr "மு.ப./பி.ப."
 
-#: src/ExportManager.cpp:945
+#: src/ExportManager.cpp:944
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (short name)"
 msgstr "நேரமண்டலம் (குறுகிய பெயர்)"
 
-#: src/ExportManager.cpp:946
+#: src/ExportManager.cpp:945
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±0000)"
 msgstr "நேரமண்டலம் (±0000)"
 
-#: src/ExportManager.cpp:947
+#: src/ExportManager.cpp:946
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±00:00)"
 msgstr "நேரமண்டலம் (±00:00)"
 
-#: src/ExportManager.cpp:948
+#: src/ExportManager.cpp:947
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (long name)"
 msgstr "நேரமண்டலம் (நெடும் பெயர்)"
 
-#: src/ExportManager.cpp:949
+#: src/ExportManager.cpp:948
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Seconds since the Unix epoch"
 msgstr "யூனிக்ஸ் யுகத்தின் துவக்கத்திலிருந்தான நொடிகள்"
 
-#: src/ExportManager.cpp:950
+#: src/ExportManager.cpp:949
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Window Title"
 msgstr "சாளரத்தின் தலைப்பு"
 
-#: src/ExportManager.cpp:951
+#: src/ExportManager.cpp:950
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Sequential numbering, padded by inserting additional '#' characters"
@@ -857,7 +857,7 @@ msgctxt "@title:group"
 msgid "Make a Recording:"
 msgstr "திரைப்பதிவு எடு:"
 
-#: src/Gui/DialogPage.qml:163
+#: src/Gui/DialogPage.qml:162
 #, kde-format
 msgctxt "@title:tab"
 msgid "Screenshot"
@@ -869,56 +869,62 @@ msgctxt "@title:tab"
 msgid "Recording"
 msgstr "திரைப்பதிவு"
 
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
 #: src/Gui/EditAction.qml:11
 #, kde-format
 msgctxt "@action edit screenshot"
 msgid "Edit…"
 msgstr "திருத்து…"
 
-#: src/Gui/ExportMenu.cpp:45
+#: src/Gui/ExportMenu.cpp:44
 #, kde-format
 msgctxt "@title:menu"
 msgid "Export"
 msgstr "ஏற்றுமதி"
 
-#: src/Gui/ExportMenu.cpp:48
+#: src/Gui/ExportMenu.cpp:47
 #, kde-format
 msgid "Open Default Screenshots Folder"
 msgstr "இயல்பிருப்பு திரைப்பிடிப்பு அடைவை திற"
 
-#: src/Gui/ExportMenu.cpp:134
+#: src/Gui/ExportMenu.cpp:133
 #, kde-format
 msgctxt "@action:button open screenshot in other application"
 msgid "Other Application…"
 msgstr "வேறு செயலி…"
 
-#: src/Gui/ExportMenu.cpp:166
+#: src/Gui/ExportMenu.cpp:165
 #, kde-format
 msgid "Share"
 msgstr "பகிர்"
 
-#: src/Gui/ExportMenu.cpp:259
+#: src/Gui/ExportMenu.cpp:258
 #, kde-format
 msgctxt "@action:menu"
 msgid "Extract Text by Language"
 msgstr "குறிப்பிட்ட மொழியிலுள்ள உரையை கண்டறி"
 
-#: src/Gui/ExportMenu.cpp:295
+#: src/Gui/ExportMenu.cpp:294
 #, kde-format
 msgid "OCR engine is not available."
 msgstr "OCR நிரல் கிடைக்கவில்லை."
 
-#: src/Gui/ExportMenu.cpp:303
+#: src/Gui/ExportMenu.cpp:302
 #, kde-format
 msgid "OCR is not available. Please install Tesseract OCR."
 msgstr "OCR நிரல் கிடைக்கவில்லை. Tesseract OCR எனும் நிரலை நிறுவவும்"
 
-#: src/Gui/ExportMenu.cpp:304
+#: src/Gui/ExportMenu.cpp:303
 #, kde-format
 msgid "OCR engine is initializing…"
 msgstr "OCR நிரல் துவக்கப்படுகிறது…"
 
-#: src/Gui/ExportMenu.cpp:314
+#: src/Gui/ExportMenu.cpp:313
 #, kde-format
 msgid "No OCR language data available."
 msgstr "எந்த மொழிக்கும் OCR தரவு இல்லை."
@@ -1105,12 +1111,6 @@ msgstr "திரைப்பதிவு பயன்முறைகள்"
 msgctxt "@action select new recording mode"
 msgid "New Recording"
 msgstr "புதிய திரைப்பதிவு"
-
-#: src/Gui/RecordingModeMenuButton.qml:18
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "This feature is not supported on the current platform"
-msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:17
 #, kde-format

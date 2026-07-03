@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-22 00:45+0000\n"
+"POT-Creation-Date: 2026-07-03 00:48+0000\n"
 "PO-Revision-Date: 2026-06-28 11:36+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
@@ -235,13 +235,13 @@ msgstr "Opna og rediger eksisterande skjermbiletfil."
 msgid "Accept region selection on click-and-release"
 msgstr "Godta utsnittsval ved klikk-og-slepp."
 
-#: src/ExportManager.cpp:460
+#: src/ExportManager.cpp:459
 #, kde-format
 msgctxt "%1 is an error message"
 msgid "QImageWriter cannot write image: %1"
 msgstr "QImageWriter klarte ikkje lagra bilete: %1"
 
-#: src/ExportManager.cpp:476
+#: src/ExportManager.cpp:475
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -251,12 +251,12 @@ msgstr ""
 "Klarte ikkje lagra skjermbilete, på grunn av feil ved oppretting av mappe:"
 "<nl/><filename>%1</filename>"
 
-#: src/ExportManager.cpp:486
+#: src/ExportManager.cpp:485
 #, kde-format
 msgid "Cannot save screenshot. Error while writing file."
 msgstr "Klarte ikkje lagra skjermbilete. Feil ved skriving av fil."
 
-#: src/ExportManager.cpp:506
+#: src/ExportManager.cpp:505
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -266,29 +266,29 @@ msgstr ""
 "Klarte ikkje lagra skjermbilete, på grunn av feil ved oppretting av mappe på "
 "nettverket:<nl/><filename>%1</filename>"
 
-#: src/ExportManager.cpp:517 src/ExportManager.cpp:566
+#: src/ExportManager.cpp:516 src/ExportManager.cpp:565
 #, kde-format
 msgid "Cannot save screenshot. Error while writing temporary local file."
 msgstr ""
 "Klarte ikkje lagra skjermbilete. Feil ved skriving av mellombels lokal fil."
 
-#: src/ExportManager.cpp:525
+#: src/ExportManager.cpp:524
 #, kde-format
 msgid "Unable to save image. Could not upload file to remote location."
 msgstr ""
 "Klarte ikkje lagra skjermbilete. Feil ved opplasting til eksternt område."
 
-#: src/ExportManager.cpp:573
+#: src/ExportManager.cpp:572
 #, kde-format
 msgid "Cannot save screenshot. The save filename is invalid."
 msgstr "Klarte ikkje lagra skjermbilete. Filnamnet er ugyldig."
 
-#: src/ExportManager.cpp:617
+#: src/ExportManager.cpp:616
 #, kde-format
 msgid "Cannot save an empty screenshot image."
 msgstr "Kan ikkje lagra tomt skjermbilete."
 
-#: src/ExportManager.cpp:780
+#: src/ExportManager.cpp:779
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -297,7 +297,7 @@ msgstr ""
 "Klarte ikkje eksportera video: Adressa til mellombels fil må vera ei lokal "
 "fil som finst frå før"
 
-#: src/ExportManager.cpp:787
+#: src/ExportManager.cpp:786
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -306,193 +306,193 @@ msgstr ""
 "Klarte ikkje eksportera video: Adressa til utfila må vera ei gyldig adresse "
 "som inneheld eit"
 
-#: src/ExportManager.cpp:873
+#: src/ExportManager.cpp:872
 #, kde-format
 msgctxt "@info, %1 is a file path"
 msgid "Unable to save recording. Could not move file to location: %1"
 msgstr ""
 "Klarte ikkje lagra opptak. Klarte ikkje flytta fila til ny plassering: %1"
 
-#: src/ExportManager.cpp:901
+#: src/ExportManager.cpp:900
 #, kde-format
 msgid "Printing failed. The printer failed to initialize."
 msgstr "Feil ved utskrift. Klarte ikkje starta skrivaren."
 
-#: src/ExportManager.cpp:918
+#: src/ExportManager.cpp:917
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (1–31)"
 msgstr "Dag (1–31)"
 
-#: src/ExportManager.cpp:919
+#: src/ExportManager.cpp:918
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (01–31)"
 msgstr "Dag (01–31)"
 
-#: src/ExportManager.cpp:920
+#: src/ExportManager.cpp:919
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (short name)"
 msgstr "Dag (kort namn)"
 
-#: src/ExportManager.cpp:921
+#: src/ExportManager.cpp:920
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Day (long name)"
 msgstr "Dag (langt namn)"
 
-#: src/ExportManager.cpp:922
+#: src/ExportManager.cpp:921
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (1–12)"
 msgstr "Månad (1–12)"
 
-#: src/ExportManager.cpp:923
+#: src/ExportManager.cpp:922
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (01–12)"
 msgstr "Månad (01–12)"
 
-#: src/ExportManager.cpp:924
+#: src/ExportManager.cpp:923
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (short name)"
 msgstr "Månad (kort namn)"
 
-#: src/ExportManager.cpp:925
+#: src/ExportManager.cpp:924
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Month (long name)"
 msgstr "Månad (langt namn)"
 
-#: src/ExportManager.cpp:926
+#: src/ExportManager.cpp:925
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (2 digit)"
 msgstr "Årstal (to siffer)"
 
-#: src/ExportManager.cpp:927
+#: src/ExportManager.cpp:926
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Year (4 digit)"
 msgstr "Årstal (fire siffer)"
 
-#: src/ExportManager.cpp:928
+#: src/ExportManager.cpp:927
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (0–23)"
 msgstr "Time (0–23)"
 
-#: src/ExportManager.cpp:929
+#: src/ExportManager.cpp:928
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (00–23)"
 msgstr "Time (00–23)"
 
-#: src/ExportManager.cpp:930
+#: src/ExportManager.cpp:929
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (1–12)"
 msgstr "Time (1–12)"
 
-#: src/ExportManager.cpp:931
+#: src/ExportManager.cpp:930
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Hour (01–12)"
 msgstr "Time (01–12)"
 
-#: src/ExportManager.cpp:932
+#: src/ExportManager.cpp:931
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (0–59)"
 msgstr "Minutt (0–59)"
 
-#: src/ExportManager.cpp:933
+#: src/ExportManager.cpp:932
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Minute (00–59)"
 msgstr "Minutt (00–59)"
 
-#: src/ExportManager.cpp:934
+#: src/ExportManager.cpp:933
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (0–59)"
 msgstr "Sekund (0–59)"
 
-#: src/ExportManager.cpp:935
+#: src/ExportManager.cpp:934
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Second (00–59)"
 msgstr "Sekund (00–59)"
 
-#: src/ExportManager.cpp:936
+#: src/ExportManager.cpp:935
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (0–999)"
 msgstr "Millisekund (0–999)"
 
-#: src/ExportManager.cpp:938
+#: src/ExportManager.cpp:937
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Millisecond (000–999)"
 msgstr "Millisekund (000–999)"
 
-#: src/ExportManager.cpp:939
+#: src/ExportManager.cpp:938
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/ExportManager.cpp:941
+#: src/ExportManager.cpp:940
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "am/pm"
 msgstr "am/pm"
 
-#: src/ExportManager.cpp:943
+#: src/ExportManager.cpp:942
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "AM/PM or am/pm (localized)"
 msgstr "AM/PM eller am/pm (basert på språkversjon)"
 
-#: src/ExportManager.cpp:945
+#: src/ExportManager.cpp:944
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (short name)"
 msgstr "Tidssone (kort namn)"
 
-#: src/ExportManager.cpp:946
+#: src/ExportManager.cpp:945
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±0000)"
 msgstr "Tidssone-forskyving (±0000)"
 
-#: src/ExportManager.cpp:947
+#: src/ExportManager.cpp:946
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone offset (±00:00)"
 msgstr "Tidssone-forskyving (±00:00)"
 
-#: src/ExportManager.cpp:948
+#: src/ExportManager.cpp:947
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Timezone (long name)"
 msgstr "Tidssone (langt namn)"
 
-#: src/ExportManager.cpp:949
+#: src/ExportManager.cpp:948
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Seconds since the Unix epoch"
 msgstr "Sekund sidan start på Unix-epoken"
 
-#: src/ExportManager.cpp:950
+#: src/ExportManager.cpp:949
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Window Title"
 msgstr "Vindaugstittel"
 
-#: src/ExportManager.cpp:951
+#: src/ExportManager.cpp:950
 #, kde-format
 msgctxt "filename placeholder description"
 msgid "Sequential numbering, padded by inserting additional '#' characters"
@@ -859,7 +859,7 @@ msgctxt "@title:group"
 msgid "Make a Recording:"
 msgstr "Ta skjermopptak:"
 
-#: src/Gui/DialogPage.qml:163
+#: src/Gui/DialogPage.qml:162
 #, kde-format
 msgctxt "@title:tab"
 msgid "Screenshot"
@@ -871,58 +871,64 @@ msgctxt "@title:tab"
 msgid "Recording"
 msgstr "Skjermopptak"
 
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "Denne funksjonen er ikkje støtta på denne plattforma"
+
 #: src/Gui/EditAction.qml:11
 #, kde-format
 msgctxt "@action edit screenshot"
 msgid "Edit…"
 msgstr "Rediger …"
 
-#: src/Gui/ExportMenu.cpp:45
+#: src/Gui/ExportMenu.cpp:44
 #, kde-format
 msgctxt "@title:menu"
 msgid "Export"
 msgstr "Eksporter"
 
-#: src/Gui/ExportMenu.cpp:48
+#: src/Gui/ExportMenu.cpp:47
 #, kde-format
 msgid "Open Default Screenshots Folder"
 msgstr "Opna standard skjermbiletmappe"
 
-#: src/Gui/ExportMenu.cpp:134
+#: src/Gui/ExportMenu.cpp:133
 #, kde-format
 msgctxt "@action:button open screenshot in other application"
 msgid "Other Application…"
 msgstr "Anna program …"
 
-#: src/Gui/ExportMenu.cpp:166
+#: src/Gui/ExportMenu.cpp:165
 #, kde-format
 msgid "Share"
 msgstr "Del"
 
-#: src/Gui/ExportMenu.cpp:259
+#: src/Gui/ExportMenu.cpp:258
 #, kde-format
 msgctxt "@action:menu"
 msgid "Extract Text by Language"
 msgstr "Hent ut tekst basert på språk"
 
-#: src/Gui/ExportMenu.cpp:295
+#: src/Gui/ExportMenu.cpp:294
 #, kde-format
 msgid "OCR engine is not available."
 msgstr "Tekstattkjenningsmotor er ikkje tilgjengeleg."
 
-#: src/Gui/ExportMenu.cpp:303
+#: src/Gui/ExportMenu.cpp:302
 #, kde-format
 msgid "OCR is not available. Please install Tesseract OCR."
 msgstr ""
 "Tekstattkjenningsmotor er ikkje tilgjengeleg. Installer programmet "
 "Tesseract OCR."
 
-#: src/Gui/ExportMenu.cpp:304
+#: src/Gui/ExportMenu.cpp:303
 #, kde-format
 msgid "OCR engine is initializing…"
 msgstr "Tekstattkjenningsmotor startar …"
 
-#: src/Gui/ExportMenu.cpp:314
+#: src/Gui/ExportMenu.cpp:313
 #, kde-format
 msgid "No OCR language data available."
 msgstr "Manglar språkdata for tekstattkjenning."
@@ -1110,12 +1116,6 @@ msgstr "Opptaksmodusar"
 msgctxt "@action select new recording mode"
 msgid "New Recording"
 msgstr "Nytt opptak"
-
-#: src/Gui/RecordingModeMenuButton.qml:18
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "This feature is not supported on the current platform"
-msgstr "Denne funksjonen er ikkje støtta på denne plattforma"
 
 #: src/Gui/RecordingSettingsColumn.qml:17
 #, kde-format
