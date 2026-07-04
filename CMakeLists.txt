@@ -85,7 +85,6 @@ find_package(Wayland REQUIRED COMPONENTS Client)
 find_package(PlasmaWaylandProtocols REQUIRED)
 find_package(LayerShellQt REQUIRED)
 find_package(KPipeWire)
-find_package(OpenCV 4.7 REQUIRED core imgproc)
 find_package(PkgConfig REQUIRED)
 
 set_package_properties(KPipeWire PROPERTIES DESCRIPTION

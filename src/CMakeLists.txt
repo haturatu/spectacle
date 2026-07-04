@@ -93,10 +93,8 @@ ki18n_wrap_ui(spectacle
     Gui/SettingsDialog/VideoSaveOptions.ui
 )
 
-# Needed to compile with OpenCV
+# Needed to compile with Tesseract
 target_compile_options (spectacle PRIVATE -fexceptions)
-
-target_include_directories(spectacle PUBLIC ${OpenCV_INCLUDE_DIRS})
 
 target_link_libraries(spectacle PRIVATE
     Qt::Concurrent
@@ -128,7 +126,6 @@ target_link_libraries(spectacle PRIVATE
     Wayland::Client
     LayerShellQt::Interface
     KQuickImageEditor
-    ${OpenCV_LIBRARIES}
     PkgConfig::TESSERACT
 )
 
