@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 00:48+0000\n"
+"POT-Creation-Date: 2026-07-07 00:45+0000\n"
 "PO-Revision-Date: 2026-01-28 00:49+0000\n"
 "Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
@@ -1906,25 +1906,25 @@ msgstr "Deteção de Expressões Matemáticas/Equações"
 msgid "Orientation and Script Detection"
 msgstr "Deteção de Orientação e Texto Manuscrito"
 
-#: src/Platforms/ImagePlatformKWin.cpp:144
+#: src/Platforms/ImagePlatformKWin.cpp:134
 #, kde-format
 msgctxt "@info, %1 is the width"
 msgid "Bad width for KWin screenshot: %1"
 msgstr "Largura inadequada para a captura de ecrã do KWin: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:149
+#: src/Platforms/ImagePlatformKWin.cpp:139
 #, kde-format
 msgctxt "@info, %1 is the height"
 msgid "Bad height for KWin screenshot: %1"
 msgstr "Altura inadequada para captura de ecrã do KWin: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:160
+#: src/Platforms/ImagePlatformKWin.cpp:150
 #, kde-format
 msgctxt "@info, %1 is a file format like 'png', 'jpg'"
 msgid "Bad format for KWin screenshot: %1"
 msgstr "Formato inválido para a captura de ecrã do KWin: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:178
+#: src/Platforms/ImagePlatformKWin.cpp:168
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file descriptor for reading KWin screenshot."
@@ -1932,13 +1932,13 @@ msgstr ""
 "Não foi possível abrir o descritor de ficheiro para leitura da captura de "
 "ecrã do KWin."
 
-#: src/Platforms/ImagePlatformKWin.cpp:248
+#: src/Platforms/ImagePlatformKWin.cpp:238
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "pipe2() failed for KWin screenshot: %1"
 msgstr "pipe2() falhou para a captura de ecrã do KWin: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:304
+#: src/Platforms/ImagePlatformKWin.cpp:294
 #, kde-format
 msgctxt "@info, %1 is an error message"
 msgid ""
@@ -1948,7 +1948,7 @@ msgstr ""
 "O pedido de captura de ecrã do KWin falhou:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:306
+#: src/Platforms/ImagePlatformKWin.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1958,7 +1958,7 @@ msgstr ""
 "Informação potencialmente relevante:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:314
+#: src/Platforms/ImagePlatformKWin.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Unsupported KWin screenshot type metadata: %1"

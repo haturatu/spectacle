@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 00:48+0000\n"
+"POT-Creation-Date: 2026-07-07 00:45+0000\n"
 "PO-Revision-Date: 2026-06-16 18:10+0300\n"
 "Last-Translator: Moo <<>>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -1915,38 +1915,38 @@ msgstr "Matematikos/Lygčių aptikimas"
 msgid "Orientation and Script Detection"
 msgstr "Orientacija ir scenarijų aptikimas"
 
-#: src/Platforms/ImagePlatformKWin.cpp:144
+#: src/Platforms/ImagePlatformKWin.cpp:134
 #, kde-format
 msgctxt "@info, %1 is the width"
 msgid "Bad width for KWin screenshot: %1"
 msgstr "Blogas KWin ekrano kopijos plotis: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:149
+#: src/Platforms/ImagePlatformKWin.cpp:139
 #, kde-format
 msgctxt "@info, %1 is the height"
 msgid "Bad height for KWin screenshot: %1"
 msgstr "Blogas KWin ekrano kopijos aukštis: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:160
+#: src/Platforms/ImagePlatformKWin.cpp:150
 #, kde-format
 msgctxt "@info, %1 is a file format like 'png', 'jpg'"
 msgid "Bad format for KWin screenshot: %1"
 msgstr "Blogas KWin ekrano kopijos formatas: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:178
+#: src/Platforms/ImagePlatformKWin.cpp:168
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file descriptor for reading KWin screenshot."
 msgstr ""
 "Nepavyko atverti failo deskriptoriaus, skirto KWin ekrano kopijos skaitymui."
 
-#: src/Platforms/ImagePlatformKWin.cpp:248
+#: src/Platforms/ImagePlatformKWin.cpp:238
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "pipe2() failed for KWin screenshot: %1"
 msgstr "KWin ekrano kopijos pipe2() patyrė nesėkmę: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:304
+#: src/Platforms/ImagePlatformKWin.cpp:294
 #, kde-format
 msgctxt "@info, %1 is an error message"
 msgid ""
@@ -1956,7 +1956,7 @@ msgstr ""
 "KWin ekrano kopijos užklausa patyrė nesėkmę:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:306
+#: src/Platforms/ImagePlatformKWin.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1966,7 +1966,7 @@ msgstr ""
 "Galimai susijusi informacija:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:314
+#: src/Platforms/ImagePlatformKWin.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Unsupported KWin screenshot type metadata: %1"

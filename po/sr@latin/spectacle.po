@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 00:48+0000\n"
+"POT-Creation-Date: 2026-07-07 00:45+0000\n"
 "PO-Revision-Date: 2017-12-03 22:53+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -2017,41 +2017,41 @@ msgstr ""
 msgid "Orientation and Script Detection"
 msgstr ""
 
-#: src/Platforms/ImagePlatformKWin.cpp:144
+#: src/Platforms/ImagePlatformKWin.cpp:134
 #, fuzzy, kde-format
 #| msgid "Take a New Screenshot"
 msgctxt "@info, %1 is the width"
 msgid "Bad width for KWin screenshot: %1"
 msgstr "Uhvati novi snimak"
 
-#: src/Platforms/ImagePlatformKWin.cpp:149
+#: src/Platforms/ImagePlatformKWin.cpp:139
 #, fuzzy, kde-format
 #| msgid "Take a New Screenshot"
 msgctxt "@info, %1 is the height"
 msgid "Bad height for KWin screenshot: %1"
 msgstr "Uhvati novi snimak"
 
-#: src/Platforms/ImagePlatformKWin.cpp:160
+#: src/Platforms/ImagePlatformKWin.cpp:150
 #, fuzzy, kde-format
 #| msgid "Take a New Screenshot"
 msgctxt "@info, %1 is a file format like 'png', 'jpg'"
 msgid "Bad format for KWin screenshot: %1"
 msgstr "Uhvati novi snimak"
 
-#: src/Platforms/ImagePlatformKWin.cpp:178
+#: src/Platforms/ImagePlatformKWin.cpp:168
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file descriptor for reading KWin screenshot."
 msgstr ""
 
-#: src/Platforms/ImagePlatformKWin.cpp:248
+#: src/Platforms/ImagePlatformKWin.cpp:238
 #, fuzzy, kde-format
 #| msgid "Take a New Screenshot"
 msgctxt "@info, %1 is an error code"
 msgid "pipe2() failed for KWin screenshot: %1"
 msgstr "Uhvati novi snimak"
 
-#: src/Platforms/ImagePlatformKWin.cpp:304
+#: src/Platforms/ImagePlatformKWin.cpp:294
 #, kde-format
 msgctxt "@info, %1 is an error message"
 msgid ""
@@ -2059,7 +2059,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Platforms/ImagePlatformKWin.cpp:306
+#: src/Platforms/ImagePlatformKWin.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2067,7 +2067,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Platforms/ImagePlatformKWin.cpp:314
+#: src/Platforms/ImagePlatformKWin.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Unsupported KWin screenshot type metadata: %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 00:48+0000\n"
+"POT-Creation-Date: 2026-07-07 00:45+0000\n"
 "PO-Revision-Date: 2024-08-13 16:04+0400\n"
 "Last-Translator: Khayyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -1991,7 +1991,7 @@ msgstr ""
 msgid "Orientation and Script Detection"
 msgstr ""
 
-#: src/Platforms/ImagePlatformKWin.cpp:144
+#: src/Platforms/ImagePlatformKWin.cpp:134
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Bad width for KWin screenshot: %1"
@@ -1999,7 +1999,7 @@ msgctxt "@info, %1 is the width"
 msgid "Bad width for KWin screenshot: %1"
 msgstr "KWin ekran şəkli çəkmək üçün genişllik normal deyil: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:149
+#: src/Platforms/ImagePlatformKWin.cpp:139
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Bad height for KWin screenshot: %1"
@@ -2007,7 +2007,7 @@ msgctxt "@info, %1 is the height"
 msgid "Bad height for KWin screenshot: %1"
 msgstr "KWin ekran şəkli çəkmək üçün hündürlük normal deyil: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:160
+#: src/Platforms/ImagePlatformKWin.cpp:150
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Bad format for KWin screenshot: %1"
@@ -2015,13 +2015,13 @@ msgctxt "@info, %1 is a file format like 'png', 'jpg'"
 msgid "Bad format for KWin screenshot: %1"
 msgstr "KWin ekran şəkli çəkmək üçün format düzgün deyil: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:178
+#: src/Platforms/ImagePlatformKWin.cpp:168
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file descriptor for reading KWin screenshot."
 msgstr "KWin ekran şəkli çəkmə üçün fayl deskriptorunu açmaq mümkün olmadı."
 
-#: src/Platforms/ImagePlatformKWin.cpp:248
+#: src/Platforms/ImagePlatformKWin.cpp:238
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "pipe2() failed for KWin screenshot: %1"
@@ -2029,7 +2029,7 @@ msgctxt "@info, %1 is an error code"
 msgid "pipe2() failed for KWin screenshot: %1"
 msgstr "KWin ekran şəkli çəkmə üçün pipe2() uğursuz oldu: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:304
+#: src/Platforms/ImagePlatformKWin.cpp:294
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -2043,7 +2043,7 @@ msgstr ""
 "KWin ekran şəkli çəkmə tələbi baş tutmadı:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:306
+#: src/Platforms/ImagePlatformKWin.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2053,7 +2053,7 @@ msgstr ""
 "Potensial uyğun məlumat:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:314
+#: src/Platforms/ImagePlatformKWin.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Unsupported KWin screenshot type metadata: %1"

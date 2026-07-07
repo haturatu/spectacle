@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 00:48+0000\n"
+"POT-Creation-Date: 2026-07-07 00:45+0000\n"
 "PO-Revision-Date: 2026-03-01 00:33+0100\n"
 "Last-Translator: Kjetil Sorlund <translate@sorlund.no>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@nuug.no>\n"
@@ -1887,37 +1887,37 @@ msgstr "Oppdagelse av matte/ligning"
 msgid "Orientation and Script Detection"
 msgstr "Orientering og skriptoppdagelse"
 
-#: src/Platforms/ImagePlatformKWin.cpp:144
+#: src/Platforms/ImagePlatformKWin.cpp:134
 #, kde-format
 msgctxt "@info, %1 is the width"
 msgid "Bad width for KWin screenshot: %1"
 msgstr "Ugyldig bredde for KWin-skjermbilde: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:149
+#: src/Platforms/ImagePlatformKWin.cpp:139
 #, kde-format
 msgctxt "@info, %1 is the height"
 msgid "Bad height for KWin screenshot: %1"
 msgstr "Ugyldig høyde for KWin-skjermbilde: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:160
+#: src/Platforms/ImagePlatformKWin.cpp:150
 #, kde-format
 msgctxt "@info, %1 is a file format like 'png', 'jpg'"
 msgid "Bad format for KWin screenshot: %1"
 msgstr "Ugyldig format for KWin-skjermbilde: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:178
+#: src/Platforms/ImagePlatformKWin.cpp:168
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file descriptor for reading KWin screenshot."
 msgstr "Klarte ikke å åpne filbeskriver for lesing av KWin-skjermbilde."
 
-#: src/Platforms/ImagePlatformKWin.cpp:248
+#: src/Platforms/ImagePlatformKWin.cpp:238
 #, kde-format
 msgctxt "@info, %1 is an error code"
 msgid "pipe2() failed for KWin screenshot: %1"
 msgstr "pipe2() feilet for KWin-skjermbilde: %1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:304
+#: src/Platforms/ImagePlatformKWin.cpp:294
 #, kde-format
 msgctxt "@info, %1 is an error message"
 msgid ""
@@ -1927,7 +1927,7 @@ msgstr ""
 "Forspørsel om KWin-skjermbilde feilet:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:306
+#: src/Platforms/ImagePlatformKWin.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1937,7 +1937,7 @@ msgstr ""
 "Potensielt relevant informasjon:\n"
 "%1"
 
-#: src/Platforms/ImagePlatformKWin.cpp:314
+#: src/Platforms/ImagePlatformKWin.cpp:304
 #, kde-format
 msgctxt "@info"
 msgid "Unsupported KWin screenshot type metadata: %1"
