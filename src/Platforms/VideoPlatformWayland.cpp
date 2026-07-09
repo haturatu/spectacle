@@ -285,9 +285,9 @@ void VideoPlatformWayland::startRecording(const QUrl &fileUrl, RecordingMode rec
         });
 
         // set up output
+        auto format = static_cast<Format>(Settings::preferredVideoFormat());
         if (!fileUrl.isValid()) {
             ExportManager::instance()->updateTimestamp();
-            const auto format = static_cast<Format>(Settings::preferredVideoFormat());
             const auto filename = ExportManager::formattedFilename(Settings::videoFilenameTemplate(),
                                                                    ExportManager::instance()->timestamp(),
                                                                    options[captionKey].toString(),
@@ -313,9 +313,15 @@ void VideoPlatformWayland::startRecording(const QUrl &fileUrl, RecordingMode rec
                 return;
             }
             const auto localFile = fileUrl.toLocalFile();
-            m_recorder->setEncoder(encoderForFormat(formatForPath(localFile)));
+            format = formatForPath(localFile);
+            m_recorder->setEncoder(encoderForFormat(format));
             m_recorder->setOutput(localFile);
         }
+        // The stored settings stay enabled when the checkboxes are disabled
+        // for a format without audio support, don't forward them in that case.
+        const bool audioSupported = formatSupportsAudio(format);
+        m_recorder->setRecordSystemAudio(Settings::videoRecordSystemAudio() && audioSupported);
+        m_recorder->setRecordMicrophone(Settings::videoRecordMicrophone() && audioSupported);
         if (m_recorder->nodeId() != 0) {
             m_recorder->start();
         }
