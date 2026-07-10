@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:45+0000\n"
+"POT-Creation-Date: 2026-07-10 00:47+0000\n"
 "PO-Revision-Date: 2026-06-13 05:21-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -731,7 +731,7 @@ msgctxt "@info basic crop tool explanation"
 msgid "Click and drag to make a selection."
 msgstr "Clique e arraste para selecionar."
 
-#: src/Gui/CaptureSettingsColumn.qml:16 src/Gui/RecordingSettingsColumn.qml:16
+#: src/Gui/CaptureSettingsColumn.qml:16
 #, kde-format
 msgid "Include mouse pointer"
 msgstr "Incluir ponteiro do mouse"
@@ -1095,6 +1095,33 @@ msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the recording"
 msgstr "Mostra o ponteiro do mouse na gravação da tela"
 
+#: src/Gui/OptionsMenu.cpp:144
+#, kde-format
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@action global shortcut"
+#| msgid "Record Screen"
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Gravar tela"
+
+#: src/Gui/OptionsMenu.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
 msgctxt "@action"
@@ -1119,12 +1146,54 @@ msgctxt "@action select new recording mode"
 msgid "New Recording"
 msgstr "Nova gravação"
 
-#: src/Gui/RecordingSettingsColumn.qml:17
-#, kde-format
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy, kde-format
+#| msgid "Include mouse pointer"
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Incluir ponteiro do mouse"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy, kde-format
+#| msgid "Show the mouse cursor in the screen recording."
+msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "Mostra o ponteiro do mouse na gravação da tela."
 
-#: src/Gui/RecordingView.qml:85
+#: src/Gui/RecordingSettingsColumn.qml:32
+#, kde-format
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@action global shortcut"
+#| msgid "Record Screen"
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Gravar tela"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+#, kde-format
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
 #, kde-format
 msgctxt "Recording in progress, %1 is the length of the recording so far"
 msgid ""
@@ -1134,12 +1203,12 @@ msgstr ""
 "Gravando:\n"
 "%1"
 
-#: src/Gui/RecordingView.qml:124
+#: src/Gui/RecordingView.qml:129
 #, kde-format
 msgid "Pause"
 msgstr "Pausar"
 
-#: src/Gui/RecordingView.qml:124
+#: src/Gui/RecordingView.qml:129
 #, kde-format
 msgid "Play"
 msgstr "Reproduzir"
@@ -1582,86 +1651,100 @@ msgstr "Se o ponteiro do mouse será incluído na imagem"
 msgid "Whether the mouse cursor is included in the video"
 msgstr "Se o ponteiro do mouse será incluído no vídeo"
 
-#. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
+#. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
+#, fuzzy, kde-format
+#| msgid "Whether the mouse cursor is included in the video"
+msgid "Whether system audio is included in the recording"
+msgstr "Se o ponteiro do mouse será incluído no vídeo"
+
+#. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
+#: src/Gui/SettingsDialog/spectacle.kcfg:103
+#, fuzzy, kde-format
+#| msgid "Whether the mouse cursor is included in the video"
+msgid "Whether microphone audio is included in the recording"
+msgstr "Se o ponteiro do mouse será incluído no vídeo"
+
+#. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
+#: src/Gui/SettingsDialog/spectacle.kcfg:107
 #, kde-format
 msgid "Whether the window decorations are included in the screenshot"
 msgstr "Se as decorações da janela serão incluídas na imagem"
 
 #. i18n: ectx: label, entry (includeShadow), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:103
+#: src/Gui/SettingsDialog/spectacle.kcfg:111
 #, kde-format
 msgid "Whether the window shadow is included in the screenshot"
 msgstr "Se as sombras da janela serão incluídas na imagem"
 
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:107
+#: src/Gui/SettingsDialog/spectacle.kcfg:115
 #, kde-format
 msgid "Only capture the current pop up menu"
 msgstr "Capturar apenas o menu de contexto atual"
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:111
+#: src/Gui/SettingsDialog/spectacle.kcfg:119
 #, kde-format
 msgid "Quit after saving or copying an image"
 msgstr "Sai após salvar ou copiar uma imagem"
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:115
+#: src/Gui/SettingsDialog/spectacle.kcfg:123
 #, kde-format
 msgid "Delay"
 msgstr "Atraso"
 
 #. i18n: ectx: label, entry (imageSaveLocation), group (ImageSave)
 #. i18n: ectx: label, entry (videoSaveLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:126
-#: src/Gui/SettingsDialog/spectacle.kcfg:172
+#: src/Gui/SettingsDialog/spectacle.kcfg:134
+#: src/Gui/SettingsDialog/spectacle.kcfg:180
 #, kde-format
 msgid "Default filename"
 msgstr "Nome de arquivo padrão"
 
 #. i18n: ectx: label, entry (imageCompressionQuality), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:143
+#: src/Gui/SettingsDialog/spectacle.kcfg:151
 #, kde-format
 msgid "Compression quality for lossy file formats"
 msgstr "Qualidade da compressão em formatos de arquivo com perdas"
 
 #. i18n: ectx: label, entry (preferredImageFormat), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:151
+#: src/Gui/SettingsDialog/spectacle.kcfg:159
 #, kde-format
 msgid "Default save image format"
 msgstr "Formato padrão de gravação de imagens"
 
 #. i18n: ectx: label, entry (imageFilenameTemplate), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:155
+#: src/Gui/SettingsDialog/spectacle.kcfg:163
 #, kde-format
 msgid "The filename template used when saving screenshots"
 msgstr "O modelo a ser usado para nome de arquivo ao salvar capturas de tela"
 
 #. i18n: ectx: label, entry (lastImageSaveLocation), group (ImageSave)
 #. i18n: ectx: label, entry (lastVideoSaveLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:162
-#: src/Gui/SettingsDialog/spectacle.kcfg:201
+#: src/Gui/SettingsDialog/spectacle.kcfg:170
+#: src/Gui/SettingsDialog/spectacle.kcfg:209
 #, kde-format
 msgid "The path of the file saved last"
 msgstr "O caminho do último arquivo salvo"
 
 #. i18n: ectx: label, entry (lastImageSaveAsLocation), group (ImageSave)
 #. i18n: ectx: label, entry (lastVideoSaveAsLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:166
-#: src/Gui/SettingsDialog/spectacle.kcfg:205
+#: src/Gui/SettingsDialog/spectacle.kcfg:174
+#: src/Gui/SettingsDialog/spectacle.kcfg:213
 #, kde-format
 msgid "Last path used for \"save as\" action"
 msgstr "Último caminho usado na ação \"salvar como\""
 
 #. i18n: ectx: label, entry (preferredVideoFormat), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:189
+#: src/Gui/SettingsDialog/spectacle.kcfg:197
 #, kde-format
 msgid "Default video format"
 msgstr "Formato padrão de gravação de vídeos"
 
 #. i18n: ectx: label, entry (videoFilenameTemplate), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:194
+#: src/Gui/SettingsDialog/spectacle.kcfg:202
 #, kde-format
 msgid "The filename template used when saving screencasts"
 msgstr "O modelo a ser usado para nome de arquivo ao salvar gravações da tela"
@@ -2023,37 +2106,37 @@ msgctxt "@info:shell, %1 is the output file URL"
 msgid "Failed to record: Output file URL is not a local file (%1)"
 msgstr "Falha ao gravar: o URL do arquivo de saída não é um arquivo local (%1)"
 
-#: src/Platforms/VideoPlatformWayland.cpp:370
+#: src/Platforms/VideoPlatformWayland.cpp:376
 #, kde-format
 msgctxt "@info:shell, %1 is a directory path"
 msgid "Failed to record: Unable to create folder (%1)"
 msgstr "Falha ao gravar: não foi possível criar a pasta (%1)"
 
-#: src/Platforms/VideoPlatformWayland.cpp:398
+#: src/Platforms/VideoPlatformWayland.cpp:404
 #, kde-format
 msgctxt "@info:shell"
 msgid "Screen recording canceled"
 msgstr "Gravação de tela cancelada"
 
-#: src/Platforms/VideoPlatformWayland.cpp:400
+#: src/Platforms/VideoPlatformWayland.cpp:406
 #, kde-format
 msgctxt "@info:shell"
 msgid "Window recording canceled"
 msgstr "Gravação de janela cancelada"
 
-#: src/Platforms/VideoPlatformWayland.cpp:406
+#: src/Platforms/VideoPlatformWayland.cpp:412
 #, kde-format
 msgctxt "@info:shell, %1 is an error message"
 msgid "Failed to select screen: %1"
 msgstr "Falha ao selecionar tela: %1"
 
-#: src/Platforms/VideoPlatformWayland.cpp:408
+#: src/Platforms/VideoPlatformWayland.cpp:414
 #, kde-format
 msgctxt "@info:shell, %1 is an error message"
 msgid "Failed to select window: %1"
 msgstr "Falha ao selecionar a janela: %1"
 
-#: src/Platforms/VideoPlatformWayland.cpp:436
+#: src/Platforms/VideoPlatformWayland.cpp:442
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select screen: No screen contained the mouse cursor position"
@@ -2061,7 +2144,7 @@ msgstr ""
 "Falha ao selecionar a tela: nenhuma tela continha a posição do cursor do "
 "mouse"
 
-#: src/Platforms/VideoPlatformWayland.cpp:443
+#: src/Platforms/VideoPlatformWayland.cpp:449
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select window: No window found"
@@ -2574,10 +2657,6 @@ msgstr "GIF (compatível porém ineficiente)"
 
 #~ msgid "Whether to show capture instructions in the region selection"
 #~ msgstr "Se deve mostrar instruções de captura na seleção da região"
-
-#~ msgctxt "@action global shortcut"
-#~ msgid "Record Screen"
-#~ msgstr "Gravar tela"
 
 #~ msgctxt "@action global shortcut"
 #~ msgid "Record Window"

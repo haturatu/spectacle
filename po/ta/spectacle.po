@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:45+0000\n"
+"POT-Creation-Date: 2026-07-10 00:47+0000\n"
 "PO-Revision-Date: 2026-02-01 18:51+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -720,7 +720,7 @@ msgctxt "@info basic crop tool explanation"
 msgid "Click and drag to make a selection."
 msgstr "தேர்வு செய்ய க்ளிக் செய்தபடியே இழுக்கவும்."
 
-#: src/Gui/CaptureSettingsColumn.qml:16 src/Gui/RecordingSettingsColumn.qml:16
+#: src/Gui/CaptureSettingsColumn.qml:16
 #, kde-format
 msgid "Include mouse pointer"
 msgstr "சுட்டிக்குறியை உட்படுத்து"
@@ -1088,6 +1088,33 @@ msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the recording"
 msgstr "திரைப்பதிவில் சுட்டிக்குறியையும் காட்டும்"
 
+#: src/Gui/OptionsMenu.cpp:144
+#, kde-format
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@action global shortcut"
+#| msgid "Record Screen"
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "திரையை பதிவு செய்"
+
+#: src/Gui/OptionsMenu.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
 msgctxt "@action"
@@ -1112,12 +1139,54 @@ msgctxt "@action select new recording mode"
 msgid "New Recording"
 msgstr "புதிய திரைப்பதிவு"
 
-#: src/Gui/RecordingSettingsColumn.qml:17
-#, kde-format
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy, kde-format
+#| msgid "Include mouse pointer"
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "சுட்டிக்குறியை உட்படுத்து"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy, kde-format
+#| msgid "Show the mouse cursor in the screen recording."
+msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "திரைப்பதிவில் சுட்டிக்குறியையும் காட்டு."
 
-#: src/Gui/RecordingView.qml:85
+#: src/Gui/RecordingSettingsColumn.qml:32
+#, kde-format
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy, kde-format
+#| msgctxt "@action global shortcut"
+#| msgid "Record Screen"
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "திரையை பதிவு செய்"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+#, kde-format
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
 #, kde-format
 msgctxt "Recording in progress, %1 is the length of the recording so far"
 msgid ""
@@ -1127,12 +1196,12 @@ msgstr ""
 "பதிவு செய்யப்படுகிறது:\n"
 "%1"
 
-#: src/Gui/RecordingView.qml:124
+#: src/Gui/RecordingView.qml:129
 #, kde-format
 msgid "Pause"
 msgstr "இடைநிறுத்து"
 
-#: src/Gui/RecordingView.qml:124
+#: src/Gui/RecordingView.qml:129
 #, kde-format
 msgid "Play"
 msgstr "இயக்கு"
@@ -1571,58 +1640,72 @@ msgstr "திரைப்பிடிப்பில் சுட்டிக�
 msgid "Whether the mouse cursor is included in the video"
 msgstr "நிகழ்படப் பதிவில் சுட்டிக்குறி உட்பட வேண்டுமா"
 
-#. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
+#. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
+#, fuzzy, kde-format
+#| msgid "Whether the mouse cursor is included in the video"
+msgid "Whether system audio is included in the recording"
+msgstr "நிகழ்படப் பதிவில் சுட்டிக்குறி உட்பட வேண்டுமா"
+
+#. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
+#: src/Gui/SettingsDialog/spectacle.kcfg:103
+#, fuzzy, kde-format
+#| msgid "Whether the mouse cursor is included in the video"
+msgid "Whether microphone audio is included in the recording"
+msgstr "நிகழ்படப் பதிவில் சுட்டிக்குறி உட்பட வேண்டுமா"
+
+#. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
+#: src/Gui/SettingsDialog/spectacle.kcfg:107
 #, kde-format
 msgid "Whether the window decorations are included in the screenshot"
 msgstr "திரைப்பிடிப்பில் சாளர விளிம்புகள் உட்பட வேண்டுமா"
 
 #. i18n: ectx: label, entry (includeShadow), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:103
+#: src/Gui/SettingsDialog/spectacle.kcfg:111
 #, kde-format
 msgid "Whether the window shadow is included in the screenshot"
 msgstr "திரைப்பிடிப்பில் சாளர நிழல் உட்பட வேண்டுமா"
 
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:107
+#: src/Gui/SettingsDialog/spectacle.kcfg:115
 #, kde-format
 msgid "Only capture the current pop up menu"
 msgstr "தற்போதைய மேல்தோன்றும் பட்டியை மட்டும் படமெடு"
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:111
+#: src/Gui/SettingsDialog/spectacle.kcfg:119
 #, kde-format
 msgid "Quit after saving or copying an image"
 msgstr "படத்தை சேமித்த பின்போ நகலெடுத்த பின்போ வெளியேறு"
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:115
+#: src/Gui/SettingsDialog/spectacle.kcfg:123
 #, kde-format
 msgid "Delay"
 msgstr "தாமதம்"
 
 #. i18n: ectx: label, entry (imageSaveLocation), group (ImageSave)
 #. i18n: ectx: label, entry (videoSaveLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:126
-#: src/Gui/SettingsDialog/spectacle.kcfg:172
+#: src/Gui/SettingsDialog/spectacle.kcfg:134
+#: src/Gui/SettingsDialog/spectacle.kcfg:180
 #, kde-format
 msgid "Default filename"
 msgstr "இயல்பிருப்பு கோப்புப்பெயர்"
 
 #. i18n: ectx: label, entry (imageCompressionQuality), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:143
+#: src/Gui/SettingsDialog/spectacle.kcfg:151
 #, kde-format
 msgid "Compression quality for lossy file formats"
 msgstr "இழப்புடை படிவங்களுக்கான சுருக்க தரம்"
 
 #. i18n: ectx: label, entry (preferredImageFormat), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:151
+#: src/Gui/SettingsDialog/spectacle.kcfg:159
 #, kde-format
 msgid "Default save image format"
 msgstr "இயல்பிருப்பு சேமிப்புவடிவம்"
 
 #. i18n: ectx: label, entry (imageFilenameTemplate), group (ImageSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:155
+#: src/Gui/SettingsDialog/spectacle.kcfg:163
 #, kde-format
 msgid "The filename template used when saving screenshots"
 msgstr ""
@@ -1630,28 +1713,28 @@ msgstr ""
 
 #. i18n: ectx: label, entry (lastImageSaveLocation), group (ImageSave)
 #. i18n: ectx: label, entry (lastVideoSaveLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:162
-#: src/Gui/SettingsDialog/spectacle.kcfg:201
+#: src/Gui/SettingsDialog/spectacle.kcfg:170
+#: src/Gui/SettingsDialog/spectacle.kcfg:209
 #, kde-format
 msgid "The path of the file saved last"
 msgstr "கடைசியாக சேமித்த கோப்பிற்கான பாதை"
 
 #. i18n: ectx: label, entry (lastImageSaveAsLocation), group (ImageSave)
 #. i18n: ectx: label, entry (lastVideoSaveAsLocation), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:166
-#: src/Gui/SettingsDialog/spectacle.kcfg:205
+#: src/Gui/SettingsDialog/spectacle.kcfg:174
+#: src/Gui/SettingsDialog/spectacle.kcfg:213
 #, kde-format
 msgid "Last path used for \"save as\" action"
 msgstr "\"இவ்வாறு சேமி\" என்பதில் கடைசியாக பயன்படுத்திய பாதை"
 
 #. i18n: ectx: label, entry (preferredVideoFormat), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:189
+#: src/Gui/SettingsDialog/spectacle.kcfg:197
 #, kde-format
 msgid "Default video format"
 msgstr "இயல்பிருப்பு நிகழ்பட கோப்புவடிவம்"
 
 #. i18n: ectx: label, entry (videoFilenameTemplate), group (VideoSave)
-#: src/Gui/SettingsDialog/spectacle.kcfg:194
+#: src/Gui/SettingsDialog/spectacle.kcfg:202
 #, kde-format
 msgid "The filename template used when saving screencasts"
 msgstr "திரைப்பதிவுகளை சேமிக்கும்போது பயன்படுத்த வேண்டிய கோப்புப்பெயர்களுக்கான வார்ப்புரு"
@@ -2008,43 +2091,43 @@ msgctxt "@info:shell, %1 is the output file URL"
 msgid "Failed to record: Output file URL is not a local file (%1)"
 msgstr "பதிவிடுவது தோல்வியடைந்தது: சேருமிட கோப்பின் முகவரி உள்ளமை கோப்பாக இல்லை (%1)"
 
-#: src/Platforms/VideoPlatformWayland.cpp:370
+#: src/Platforms/VideoPlatformWayland.cpp:376
 #, kde-format
 msgctxt "@info:shell, %1 is a directory path"
 msgid "Failed to record: Unable to create folder (%1)"
 msgstr "பதிவிடுவது தோல்வியடைந்தது: அடைவை உருவாக்க முடியவில்லை (%1)"
 
-#: src/Platforms/VideoPlatformWayland.cpp:398
+#: src/Platforms/VideoPlatformWayland.cpp:404
 #, kde-format
 msgctxt "@info:shell"
 msgid "Screen recording canceled"
 msgstr "திரைப்பதிவு ரத்து செய்யப்பட்டது"
 
-#: src/Platforms/VideoPlatformWayland.cpp:400
+#: src/Platforms/VideoPlatformWayland.cpp:406
 #, kde-format
 msgctxt "@info:shell"
 msgid "Window recording canceled"
 msgstr "சாளரப்பதிவு ரத்து செய்யப்பட்டது"
 
-#: src/Platforms/VideoPlatformWayland.cpp:406
+#: src/Platforms/VideoPlatformWayland.cpp:412
 #, kde-format
 msgctxt "@info:shell, %1 is an error message"
 msgid "Failed to select screen: %1"
 msgstr "திரையைத் தேர்ந்தெடுப்பது தோல்வியடைந்தது: %1"
 
-#: src/Platforms/VideoPlatformWayland.cpp:408
+#: src/Platforms/VideoPlatformWayland.cpp:414
 #, kde-format
 msgctxt "@info:shell, %1 is an error message"
 msgid "Failed to select window: %1"
 msgstr "சாளரத்தைத் தேர்ந்தெடுப்பது தோல்வியடைந்தது: %1"
 
-#: src/Platforms/VideoPlatformWayland.cpp:436
+#: src/Platforms/VideoPlatformWayland.cpp:442
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select screen: No screen contained the mouse cursor position"
 msgstr "திரையைத் தேர்ந்தெடுப்பது தோல்வியடைந்த‍து: சுட்டிக்குறி எந்த திரையிலும் இல்லை"
 
-#: src/Platforms/VideoPlatformWayland.cpp:443
+#: src/Platforms/VideoPlatformWayland.cpp:449
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select window: No window found"
@@ -2553,10 +2636,6 @@ msgstr "GIF (பலவற்றில் இயங்கும், ஆனால�
 #~ msgid "Whether to show capture instructions in the region selection"
 #~ msgstr ""
 #~ "பகுதித்தேர்வு பயன்முறையில் என்ன செய்யவேண்டுமென்பதை விவரிக்கும் உரையை காட்ட வேண்டுமா"
-
-#~ msgctxt "@action global shortcut"
-#~ msgid "Record Screen"
-#~ msgstr "திரையை பதிவு செய்"
 
 #~ msgctxt "@action global shortcut"
 #~ msgid "Record Window"
