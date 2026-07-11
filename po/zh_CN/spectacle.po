@@ -1071,12 +1071,10 @@ msgid ""
 msgstr ""
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "Recording"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "屏幕录像"
+msgstr ""
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
@@ -1109,18 +1107,16 @@ msgid "New Recording"
 msgstr "新建录屏"
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
-msgstr "包含鼠标指针"
+msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
-msgstr "屏幕录像包含鼠标光标。"
+msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:32
 #, kde-format
@@ -1136,12 +1132,10 @@ msgid ""
 msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "Recording"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr "屏幕录像"
+msgstr ""
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
@@ -1605,17 +1599,15 @@ msgstr "是否在视频中包含鼠标光标"
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "是否在视频中包含鼠标光标"
+msgstr ""
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "是否在视频中包含鼠标光标"
+msgstr ""
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107

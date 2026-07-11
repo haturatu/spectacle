@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-06-13 16:26+0300\n"
+"PO-Revision-Date: 2026-07-10 10:34+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1081,28 +1081,26 @@ msgstr "להציג את סמן העכבר בהקלטת המסך"
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "הקלטת שמע המערכת"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
-msgstr ""
+msgstr "לכלול את השמע שמתנגן כרגע במערכת כחלק מההקלטה"
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "הקלטת מסך"
+msgstr "הקלטת מיקרופון"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "לכלול שמע ממיקרופון ברירת המחדל כחלק מההקלטה"
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1129,15 +1127,13 @@ msgid "New Recording"
 msgstr "הקלטה חדשה"
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
-msgstr "כולל סמן העכבר"
+msgstr "לכלול את סמן העכבר"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "להציג את סמן העכבר בהקלטת המסך."
@@ -1146,19 +1142,17 @@ msgstr "להציג את סמן העכבר בהקלטת המסך."
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "הקלטת שמע מערכת"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
-msgstr ""
+msgstr "לכלול את השמע שמתנגן כרגע במערכת כחלק מההקלטה."
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
 msgstr "הקלטת מסך"
@@ -1167,13 +1161,13 @@ msgstr "הקלטת מסך"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "לכלול שמע ממיקרופון ברירת המחדל כחלק מההקלטה."
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "תסדיר הווידאו הנבחר לא תומך בשמע."
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1627,17 +1621,15 @@ msgstr "האם לכלול את סמן העכבר בסרטון"
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "האם לכלול את סמן העכבר בסרטון"
+msgstr "האם לכלול את שמע המערכת בסרטון"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "האם לכלול את סמן העכבר בסרטון"
+msgstr "האם לכלול את המיקרופון בהקלטה"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107

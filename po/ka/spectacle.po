@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-06-13 03:37+0200\n"
+"PO-Revision-Date: 2026-07-10 05:34+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -1085,28 +1085,26 @@ msgstr "ეკრანის ჩანაწერზე თაგუნას 
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "სისტემის ხმის ჩაწერა"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
-msgstr ""
+msgstr "ჩანაწერში ამჟამად სისტემაში დაკრული ხმის ჩასმა"
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "ეკრანის ჩაწერა"
+msgstr "მიკროფონის ჩაწერა"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "ჩანაწერში ნაგულისხმევი მიკროფონიდან მომავალი ხმის ჩასმა"
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1133,15 +1131,13 @@ msgid "New Recording"
 msgstr "ახალი ჩანაწერი"
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
-msgstr "თაგუნას კურსორის ჩათვლით"
+msgstr "თაგუნას კურსორის ჩასმა"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "ეკრანის ჩანაწერზე თაგუნას კურსორის ჩვენება."
@@ -1150,34 +1146,32 @@ msgstr "ეკრანის ჩანაწერზე თაგუნას 
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "სისტემის ხმის ჩაწერა"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
-msgstr ""
+msgstr "ჩანაწერში ამჟამად სისტემაში დაკრული ხმის ჩასმა."
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr "ეკრანის ჩაწერა"
+msgstr "მიკროფონის ჩაწერა"
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "ჩანაწერში ნაგულისხმევი მიკროფონიდან მომავალი ხმის ჩასმა."
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "არჩეულ ვიდეოს ფორმატს ხმის მხარდაჭერა არ აქვს."
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1635,17 +1629,15 @@ msgstr "ვიდეოზე თაგუნას კურსორის ჩ
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "ვიდეოზე თაგუნას კურსორის ჩვენება"
+msgstr "არის, თუ არა სისტემური ხმა ჩასმული ჩანაწერში"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "ვიდეოზე თაგუნას კურსორის ჩვენება"
+msgstr "არის, თუ არა მიკროფონიდან მომავალი ხმა ჩასმული ჩანაწერში"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107

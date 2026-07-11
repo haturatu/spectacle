@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-06-13 09:22+0200\n"
+"PO-Revision-Date: 2026-07-10 09:20+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1108,7 +1108,7 @@ msgstr "Mostra el cursor del ratolí en l'enregistrament"
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "Enregistra l'àudio del sistema"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
@@ -1116,20 +1116,20 @@ msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
 msgstr ""
+"Inclou en l'enregistrament l'àudio que s'està reproduint actualment al "
+"sistema"
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "Enregistra la pantalla"
+msgstr "Enregistra el micròfon"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "Inclou l'àudio del micròfon predeterminat a l'enregistrament"
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1156,15 +1156,13 @@ msgid "New Recording"
 msgstr "Enregistrament nou"
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
 msgstr "Incloure el punter del ratolí"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "Mostra el cursor del ratolí en l'enregistrament de pantalla."
@@ -1173,7 +1171,7 @@ msgstr "Mostra el cursor del ratolí en l'enregistrament de pantalla."
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "Enregistra l'àudio del sistema"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
@@ -1181,26 +1179,26 @@ msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
 msgstr ""
+"Inclou en l'enregistrament l'àudio que s'està reproduint actualment al "
+"sistema."
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr "Enregistra la pantalla"
+msgstr "Enregistra el micròfon"
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "Inclou l'àudio del micròfon predeterminat a l'enregistrament."
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "El format de vídeo seleccionat no admet àudio."
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1663,17 +1661,15 @@ msgstr "Si el cursor del ratolí s'inclou al vídeo"
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "Si el cursor del ratolí s'inclou al vídeo"
+msgstr "Si l'àudio del sistema s'inclou a l'enregistrament"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "Si el cursor del ratolí s'inclou al vídeo"
+msgstr "Si s'inclou l'àudio del micròfon a l'enregistrament"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107
