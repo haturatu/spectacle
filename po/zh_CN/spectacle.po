@@ -1061,26 +1061,26 @@ msgstr "屏幕录像显示鼠标光标。"
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "录制系统音频"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
-msgstr ""
+msgstr "录制内容包括系统当前播放的音频"
 
 #: src/Gui/OptionsMenu.cpp:153
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr ""
+msgstr "录制麦克风音频"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "录制内容包括默认麦克风的音频"
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1110,44 +1110,44 @@ msgstr "新建录屏"
 #, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
-msgstr ""
+msgstr "包含鼠标光指针"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
-msgstr ""
+msgstr "屏幕录像包含鼠标光标。"
 
 #: src/Gui/RecordingSettingsColumn.qml:32
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "录制系统音频"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
-msgstr ""
+msgstr "录制内容包括系统当前播放的音频。"
 
 #: src/Gui/RecordingSettingsColumn.qml:45
 #, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr ""
+msgstr "录制麦克风音频"
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "录制内容包括默认麦克风的音频。"
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "所选视频格式不支持音频。"
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1601,13 +1601,13 @@ msgstr "是否在视频中包含鼠标光标"
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
 #, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr ""
+msgstr "是否在录制内容中包含系统音频"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
 #, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr ""
+msgstr "是否在录制内容中包含麦克风音频"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107
