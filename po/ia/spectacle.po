@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-03-17 11:48+0100\n"
+"PO-Revision-Date: 2026-07-17 16:52+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "translatable folder name"
@@ -887,7 +887,7 @@ msgstr "Registrante"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This feature is not supported on the current platform"
-msgstr ""
+msgstr "Iste characteristica non supportate sur le platteforma currente"
 
 #: src/Gui/EditAction.qml:11
 #, kde-format
@@ -1105,7 +1105,7 @@ msgstr "Monstra le cursor de mus in le registration"
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "Registra audio de systema"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
@@ -1113,20 +1113,20 @@ msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
 msgstr ""
+"Include le audio que es currentemente executante sur le systema in le "
+"registration"
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "Registra schermo"
+msgstr "Registra Microphono"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "Include audio del microphono predefinite in le registration."
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1153,15 +1153,13 @@ msgid "New Recording"
 msgstr "Nove Registration "
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
 msgstr "Include punctator de mus"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "Monstra le cursor de mus in le registrar de schermo"
@@ -1170,7 +1168,7 @@ msgstr "Monstra le cursor de mus in le registrar de schermo"
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "Registra audio de systema"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
@@ -1178,26 +1176,26 @@ msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
 msgstr ""
+"Include le audio que es currentemente executante sur le systema in le "
+"registration."
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@action global shortcut"
-#| msgid "Record Screen"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr "Registra schermo"
+msgstr "Registra Microphono"
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "Include audio del microphono predefinite in le registration.."
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "Le formato video seligite non supporta audio."
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1661,17 +1659,15 @@ msgstr "Si le cursor de mus es includite in le video"
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "Si le cursor de mus es includite in le video"
+msgstr "Si le audio de systema es includite in le registration"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "Si le cursor de mus es includite in le video"
+msgstr "Si le audio de microphono es includite in le registration"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107

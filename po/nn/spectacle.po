@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:47+0000\n"
-"PO-Revision-Date: 2026-06-28 11:36+0200\n"
+"PO-Revision-Date: 2026-07-17 10:40+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.07.70\n"
+"X-Generator: Lokalize 26.11.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -1097,28 +1097,26 @@ msgstr "Vis musepeikaren på skjermopptaket."
 #, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record system audio"
-msgstr ""
+msgstr "Ta opp systemlyd"
 
 #: src/Gui/OptionsMenu.cpp:145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording"
-msgstr ""
+msgstr "Ta med lyd som vert avspela på systemet, på opptaket"
 
 #: src/Gui/OptionsMenu.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "Recording"
+#, kde-format
 msgctxt "@option:check for recordings"
 msgid "Record microphone"
-msgstr "Skjermopptak"
+msgstr "Ta opp mikrofonlyd"
 
 #: src/Gui/OptionsMenu.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording"
-msgstr ""
+msgstr "Ta med lyd frå mikrofonen på opptaket"
 
 #: src/Gui/OptionsMenuButton.qml:10
 #, kde-format
@@ -1145,15 +1143,13 @@ msgid "New Recording"
 msgstr "Nytt opptak"
 
 #: src/Gui/RecordingSettingsColumn.qml:22
-#, fuzzy, kde-format
-#| msgid "Include mouse pointer"
+#, kde-format
 msgctxt "@option:check"
 msgid "Include mouse pointer"
 msgstr "Ta med musepeikaren"
 
 #: src/Gui/RecordingSettingsColumn.qml:23
-#, fuzzy, kde-format
-#| msgid "Show the mouse cursor in the screen recording."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the mouse cursor in the screen recording."
 msgstr "Vis musepeikaren på skjermopptaket."
@@ -1162,34 +1158,32 @@ msgstr "Vis musepeikaren på skjermopptaket."
 #, kde-format
 msgctxt "@option:check"
 msgid "Record system audio"
-msgstr ""
+msgstr "Ta opp systemlyd"
 
 #: src/Gui/RecordingSettingsColumn.qml:33
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Include the audio that is currently playing on the system in the recording."
-msgstr ""
+msgstr "Ta med lyd som vert avspela på systemet, på opptaket."
 
 #: src/Gui/RecordingSettingsColumn.qml:45
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "Recording"
+#, kde-format
 msgctxt "@option:check"
 msgid "Record microphone"
-msgstr "Skjermopptak"
+msgstr "Ta opp mikrofonlyd"
 
 #: src/Gui/RecordingSettingsColumn.qml:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Include audio from the default microphone in the recording."
-msgstr ""
+msgstr "Ta med lyd frå standard mikrofon på opptaket."
 
 #: src/Gui/RecordingSettingsColumn.qml:57
 #, kde-format
 msgctxt "@info"
 msgid "The selected video format does not support audio."
-msgstr ""
+msgstr "Det valde videoformatet støttar ikkje lyd."
 
 #: src/Gui/RecordingView.qml:90
 #, kde-format
@@ -1650,17 +1644,15 @@ msgstr "Om musepeikaren òg skal takast med i skjermopptaket"
 
 #. i18n: ectx: label, entry (videoRecordSystemAudio), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:99
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether system audio is included in the recording"
-msgstr "Om musepeikaren òg skal takast med i skjermopptaket"
+msgstr "Om systemlyder som takast med på opptaket"
 
 #. i18n: ectx: label, entry (videoRecordMicrophone), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:103
-#, fuzzy, kde-format
-#| msgid "Whether the mouse cursor is included in the video"
+#, kde-format
 msgid "Whether microphone audio is included in the recording"
-msgstr "Om musepeikaren òg skal takast med i skjermopptaket"
+msgstr "Om lyd frå mikrofonen skal takast med på opptaket"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:107
